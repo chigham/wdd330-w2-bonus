@@ -1,4 +1,4 @@
-const baseURL = import.meta.env.SERVER_URL//VITE_SERVER_URL
+const baseURL = import.meta.env.VITE_SERVER_URL
 async function convertToJson(res) {
   const data = await res.json();
   if (res.ok) {
@@ -10,8 +10,8 @@ async function convertToJson(res) {
 
 export default class ExternalServices {
   constructor(category) {
-    this.category = category;
-    this.path = `/wdd330-w2-bonus/src/public/json/${this.category}.json`;
+    //this.category = category;
+    //this.path = `/wdd330-w2-bonus/src/public/json/${this.category}.json`;
   }
   async getData(category) {
     const response = await fetch(baseURL + `products/search/${category}`);
