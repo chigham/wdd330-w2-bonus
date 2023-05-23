@@ -1,5 +1,5 @@
-import { getLocalStorage, loadHeaderFooter } from "./utils.mjs";
-import ShoppingCart from "./ShoppingCart.mjs";
+import { getLocalStorage, loadHeaderFooter } from "/wdd330-w2-bonus/src/js/utils.mjs";
+import ShoppingCart from "/wdd330-w2-bonus/src/js/ShoppingCart.mjs";
 
 loadHeaderFooter();
 

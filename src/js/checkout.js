@@ -1,5 +1,5 @@
-import { loadHeaderFooter } from "./utils.mjs";
-import CheckoutProcess from "./CheckoutProcess.mjs";
+import { loadHeaderFooter } from "/wdd330-w2-bonus/src/js/utils.mjs";
+import CheckoutProcess from "/wdd330-w2-bonus/src/js/CheckoutProcess.mjs";
 
 loadHeaderFooter();
 

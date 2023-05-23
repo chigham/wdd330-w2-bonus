@@ -1,5 +1,5 @@
-import { getLocalStorage, setLocalStorage, alertMessage, removeAllAlerts } from "./utils.mjs";
-import ExternalServices from "./ExternalServices.mjs";
+import { getLocalStorage, setLocalStorage, alertMessage, removeAllAlerts } from "/wdd330-w2-bonus/src/js/utils.mjs";
+import ExternalServices from "/wdd330-w2-bonus/src/js/ExternalServices.mjs";
 
 const services = new ExternalServices();
 function formDataToJSON(formElement) {

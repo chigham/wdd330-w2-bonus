@@ -1,6 +1,6 @@
-import { loadHeaderFooter, getParam } from "./utils.mjs";
-import ExternalServices from "./ExternalServices.mjs";
-import ProductList from "./ProductList.mjs";
+import { loadHeaderFooter, getParam } from "/wdd330-w2-bonus/src/js/utils.mjs";
+import ExternalServices from "/wdd330-w2-bonus/src/js/ExternalServices.mjs";
+import ProductList from "/wdd330-w2-bonus/src/js/ProductList.mjs";
 
 loadHeaderFooter();
 const category = getParam("category");

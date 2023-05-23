@@ -1,8 +1,8 @@
-import { renderListWithTemplate } from "./utils.mjs";
+import { renderListWithTemplate } from "/wdd330-w2-bonus/src/js/utils.mjs";
 
 function productCardTemplate(product) {
   return `<li class="product-card">
-  <a href="/product_pages/index.html?product=${product.Id}">
+  <a href="/wdd330-w2-bonus/src/product_pages/index.html?product=${product.Id}">
   <img
     src="${product.Images.PrimaryMedium}"
     alt="Image of ${product.Name}"

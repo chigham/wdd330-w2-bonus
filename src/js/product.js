@@ -1,6 +1,6 @@
-import { getParam, loadHeaderFooter } from "./utils.mjs";
-import ExternalServices from "./ExternalServices.mjs";
-import ProductDetails from "./ProductDetails.mjs";
+import { getParam, loadHeaderFooter } from "/wdd330-w2-bonus/src/js/utils.mjs";
+import ExternalServices from "/wdd330-w2-bonus/src/js/ExternalServices.mjs";
+import ProductDetails from "/wdd330-w2-bonus/src/js/ProductDetails.mjs";
 
 loadHeaderFooter();
 

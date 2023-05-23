@@ -1,4 +1,4 @@
-import { setLocalStorage, getLocalStorage, alertMessage } from "./utils.mjs";
+import { setLocalStorage, getLocalStorage, alertMessage } from "/wdd330-w2-bonus/src/js/utils.mjs";
 
 function productDetailsTemplate(product) {
   return `<section class="product-detail"> <h3>${product.Brand.Name}</h3>
